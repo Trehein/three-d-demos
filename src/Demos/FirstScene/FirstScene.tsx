@@ -1,4 +1,4 @@
-import * as THREE from 'three'
+// import * as THREE from 'three'
 import { Canvas } from '@react-three/fiber'
 import React, { useState } from 'react'
 
@@ -29,7 +29,5 @@ const FirstScene: React.FC = () => {
     </div>
   )
 }
-
-75, window.innerWidth / window.innerHeight, 0.1, 1000
 
 export default FirstScene
